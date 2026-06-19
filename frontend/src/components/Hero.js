@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1>Welcome to Sushi Master</h1>
+        <h1>Welcome to Sushi </h1>
         <p>Experience the finest Japanese cuisine with our authentic sushi made from the freshest ingredients.</p>
         <div className="hero-buttons">
           <button className="btn-primary">View Menu</button>
