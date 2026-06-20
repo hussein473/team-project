@@ -1,0 +1,58 @@
+Customer
+	View menu/store
+	Search and filter items
+	Place orders
+	Cancel order (before preparation)
+	Track current delivery location/status
+	View order history
+	Add items to cart
+	Choose payment method
+	Leave reviews/ratings
+	Create account / Login
+	Update profile and addresses
+
+Administrator
+	Keep track of purchases
+	View sales reports and graphs
+	Add/Delete employees
+	Modify database records
+	Check employee status
+	Manage menu items (add/edit/delete)
+	Manage categories
+	Manage inventory/stock
+	Manage customer accounts
+	View all orders
+	Update order status
+	Handle refunds and complaints
+	Configure discounts and promotions
+	View analytics and statistics
+	Assign delivery employees
+
+Employee (Kitchen/Cashier)
+	View current orders
+	Update order status (Preparing, Ready, Completed)
+	Place orders (cashier)
+	View assigned tasks
+	Check item availability
+	Print receipts
+	Report inventory shortages
+	Delivery Employee (if applicable)
+	View assigned deliveries
+	Update delivery status
+	Share current location
+	Mark order as delivered
+	Contact customer
+
+Database Entities
+Customer
+Employee
+Admin
+MenuItem
+Category
+Order
+OrderItem
+Payment
+Delivery
+Address
+Review
+Inventory
