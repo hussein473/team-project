@@ -1,0 +1,17 @@
+FROM debian:12   
+
+#Create the Work Dir where all the Projects will be in
+WORKDIR /Projects
+
+#Install Languages / Tools for Coding
+RUN apt-get update && apt-get install -y \
+        build-essential gdb -y \
+        g++-14 -y
+
+# RUN python3.11 -m pip install --upgrade pip==23.3.2
+
+COPY . /Projects
+
+EXPOSE 80
+
+CMD [ "echo" , "Test Done" ]
